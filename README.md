@@ -11,56 +11,6 @@ Messages can be posted and verified without revealing sender identities.
 - 🧾 Zero-knowledge proof that a message is valid without revealing its content
 - 🌐 Designed to be extended into a frontend Aztec SDK dApp
 
-HEAD
-### 📬 Contact
-Twitter: https://x.com/Milos__Obilic
-
-# 🗳️ Private Voting dApp (on Aztec testnet)
-
-This is a simple **private voting application** powered by **Aztec Protocol** and written in **Noir**.
-
-It allows users to vote anonymously on-chain using zero-knowledge proofs.
-
-## 💡 What it does
-
-- Start an election (admin only)
-- Cast a vote secretly (no one can know who voted for whom)
-- End the vote and tally results
-- All data remains private except final counts
-
-## 🧪 Tech Stack
-
-- 🔐 Aztec Protocol (testnet)
-- ⚙️ Noir language
-- 🧰 Aztec CLI tools
-- 🧪 zk-SNARK based vote validation
-
-## 🚀 How to run
-
-```bash
-corepack prepare yarn@4.5.2 --activate
-yarn install
-yarn build
-aztec sandbox
-```
-
-## 📂 Project Structure
-
-- `contracts/` – Noir contracts
-- `src/` – App logic
-- `README.md` – This file
-- `yarn-project/` – Aztec SDK logic
-
-## 🧙‍♂️ Why?
-
-To demonstrate how **privacy-first smart contracts** can reshape online governance and DAO elections.
-
-## 🌐 Links
-
-- GitHub: https://github.com/filozif/private-message-wall
-- X Profile: https://x.com/Milos__Obilic
->>>>>>> 062976d (Update README with Aztec private voting dApp info)
-=======
 ---
 
 ## 📂 Project Structure
@@ -80,6 +30,9 @@ private-message-wall/
 ## 🚀 How to Run (Local Sandbox)
 
 > This project uses Noir and the Aztec sandbox. Follow these steps:
+
+> ✅ Last updated and tested on **17 June 2025** using **Aztec SDK v0.87.8**.  
+> All tests pass and the project works end-to-end with the latest Aztec sandbox and CLI.
 
 ### 1. Clone the Repository
 ```bash
@@ -139,5 +92,3 @@ We use:
 
 Created by [@filozif](https://github.com/filozif) for Aztec Dev Bounty  
 MIT Licensed
-nano README.md
->>>>>>> 006f1b8 (Add final version of README)
